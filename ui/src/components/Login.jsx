@@ -47,7 +47,7 @@ const Login = () => {
   };
 
   return (
-    <div className='bg-white md:w-[360px] lg:w-[450px] m-8 h-[92%] md:h-[85%] md:absolute md:right-6 md:z-20 w-full flex flex-col items-left p-14 justify-between md:-top-3 shadow-md'>
+    <div className='bg-white md:w-[360px] lg:w-[450px] m-8 h-[92%] md:h-[85%] md:absolute lg:right-[48px] md:right-[32px] md:z-20 w-full flex flex-col items-left p-14 justify-between md:-top-3 shadow-md'>
       <div className='flex-grow'>
         <header className='text-2xl font-semibold text-[#304c6c]'>Login to Dashboard</header>
 

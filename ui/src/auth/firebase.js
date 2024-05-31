@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "UTH_DOMAIN",
+  apiKey: "AIzaSyCV61f_tQ20WsQsSVhpbJiftSc5CBvoUzY",
+  authDomain: "login-gokwik.firebaseapp.com",
   projectId: "login-gokwik",
-  storageBucket: "STORAGE_BUCKET",
-  messagingSenderId: "MESSAGING_SENDER_ID",
-  appId: "APP_ID",
+  storageBucket: "login-gokwik.appspot.com",
+  messagingSenderId: "705373547456",
+  appId: "1:705373547456:web:16833c2a48ad969b403625"
 };
 
 const app = initializeApp(firebaseConfig);
